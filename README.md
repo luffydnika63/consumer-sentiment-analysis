@@ -1,70 +1,99 @@
-# ✨ **𝘾𝙤𝙣𝙨𝙪𝙢𝙚𝙧 𝙎𝙚𝙣𝙩𝙞𝙢𝙚𝙣𝙩 𝘼𝙣𝙖𝙡𝙮𝙨𝙞𝙨 𝙒𝙚𝙗 𝘼𝙥𝙥** ✨
+# ✨ Consumer Sentiment Analysis Web App
 
 ## 🚀 Overview
-This is a web-based application that analyzes user input text and determines sentiment using NLP.
+A web app that analyzes user text and classifies sentiment using NLP.
 
-- 💚 Positive
-- ❤️ Negative
-- 💛 Neutral
+- 💚 Positive  
+- ❤️ Negative  
+- 💛 Neutral  
 
-Displays a confidence percentage based on sentiment score.
+Also shows a **confidence score** based on sentiment strength.
+
+---
 
 ## 🛠 Tech Stack
-- React + Vite
-- Node.js + Express
-- Sentiment (NPM)
-- Tailwind CSS
-- tsparticles
+- React + Vite  
+- Node.js + Express  
+- Sentiment (NPM)  
+- Tailwind CSS  
+- tsparticles  
+
+---
 
 ## ✨ Features
-- Real-time sentiment analysis
-- Responsive UI
-- Animated background
-- Confidence score
+- Real-time sentiment analysis  
+- Clean responsive UI  
+- Animated background  
+- Confidence scoring  
+
+---
 
 ## 📂 Project Structure
-sentiment-app/
-├── backend/
-│   ├── index.js
-├── src/
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── index.css
-├── public/
-├── index.html
-└── package.json
+sentiment-app/  
+├── backend/  
+│   └── index.js  
+├── src/  
+│   ├── App.jsx  
+│   ├── main.jsx  
+│   ├── index.css  
+├── public/  
+├── index.html  
+└── package.json  
+
+---
 
 ## ⚙️ Setup
-git clone <your-repo-link>
+
+```bash
+git clone https://github.com/luffydnika63/consumer-sentiment-analysis.git
 cd sentiment-app
 npm install
 npm install express sentiment cors
+```
+
+---
 
 ## ▶️ Run
-node index.js
+
+```bash
+node backend/index.js
 npm run dev
+```
 
 Open: http://localhost:5173
 
+---
+
 ## 🧠 How It Works
-1. User inputs text
-2. Sent to backend
-3. NLP processes
-4. Result displayed
+1. User enters text  
+2. Sent to backend API  
+3. Sentiment library processes it  
+4. Result + confidence displayed  
+
+---
 
 ## 📸 Example
-Input: This product is amazing!
-Output: Positive (High confidence)
+**Input:**  
+`This product is amazing!`  
+
+**Output:**  
+`Positive (High Confidence)`
+
+---
 
 ## ⚠️ Limitations
-- Basic NLP
-- No database
-- Accuracy varies
+- Uses basic NLP (not ML)  
+- No database  
+- Accuracy depends on input  
+
+---
 
 ## 🔮 Future Improvements
-- Advanced ML
-- Cloud deploy
-- Multi-language
+- Advanced ML models  
+- Cloud deployment  
+- Multi-language support  
+
+---
 
 ## 👨‍💻 Author
-AJMAL
+Ajmal

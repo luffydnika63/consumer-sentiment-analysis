@@ -88,7 +88,7 @@ Open: http://localhost:5173
 
 ---
 
-## 🔮 FUTURE IMPROVEMENTS
+##  FUTURE IMPROVEMENTS
 - Advanced ML models  
 - Cloud deployment  
 - Multi-language support  

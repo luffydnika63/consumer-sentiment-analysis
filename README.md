@@ -1,6 +1,6 @@
-# ✨ Consumer Sentiment Analysis Web App
+#          CONSUMER SENTIMENT ANALYSIS WEB APP
 
-## 🚀 Overview
+##  OVERVIEW
 A web app that analyzes user text and classifies sentiment using NLP.
 
 - 💚 Positive  
@@ -11,7 +11,7 @@ Also shows a **confidence score** based on sentiment strength.
 
 ---
 
-## 🛠 Tech Stack
+##  TECH STACK
 - React + Vite  
 - Node.js + Express  
 - Sentiment (NPM)  
@@ -20,7 +20,7 @@ Also shows a **confidence score** based on sentiment strength.
 
 ---
 
-## ✨ Features
+##  FEATURES
 - Real-time sentiment analysis  
 - Clean responsive UI  
 - Animated background  
@@ -28,7 +28,7 @@ Also shows a **confidence score** based on sentiment strength.
 
 ---
 
-## 📂 Project Structure
+##  PROJECT STRUCTURE
 sentiment-app/  
 ├── backend/  
 │   └── index.js  
@@ -42,7 +42,7 @@ sentiment-app/
 
 ---
 
-## ⚙️ Setup
+##  SETUP
 
 ```bash
 git clone https://github.com/luffydnika63/consumer-sentiment-analysis.git
@@ -53,7 +53,7 @@ npm install express sentiment cors
 
 ---
 
-## ▶️ Run
+##  RUN
 
 ```bash
 node backend/index.js
@@ -64,7 +64,7 @@ Open: http://localhost:5173
 
 ---
 
-## 🧠 How It Works
+##  HOW IT WORKS
 1. User enters text  
 2. Sent to backend API  
 3. Sentiment library processes it  
@@ -72,7 +72,7 @@ Open: http://localhost:5173
 
 ---
 
-## 📸 Example
+##  EXAMPLE
 **Input:**  
 `This product is amazing!`  
 
@@ -81,19 +81,19 @@ Open: http://localhost:5173
 
 ---
 
-## ⚠️ Limitations
+##  LIMITATIONS
 - Uses basic NLP (not ML)  
 - No database  
 - Accuracy depends on input  
 
 ---
 
-## 🔮 Future Improvements
+## 🔮 FUTURE IMPROVEMENTS
 - Advanced ML models  
 - Cloud deployment  
 - Multi-language support  
 
 ---
 
-## 👨‍💻 Author
-Ajmal
+
+

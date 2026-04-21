@@ -1,16 +1,70 @@
-# React + Vite
+# ✨ **𝘾𝙤𝙣𝙨𝙪𝙢𝙚𝙧 𝙎𝙚𝙣𝙩𝙞𝙢𝙚𝙣𝙩 𝘼𝙣𝙖𝙡𝙮𝙨𝙞𝙨 𝙒𝙚𝙗 𝘼𝙥𝙥** ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
+This is a web-based application that analyzes user input text and determines sentiment using NLP.
 
-Currently, two official plugins are available:
+- 💚 Positive
+- ❤️ Negative
+- 💛 Neutral
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Displays a confidence percentage based on sentiment score.
 
-## React Compiler
+## 🛠 Tech Stack
+- React + Vite
+- Node.js + Express
+- Sentiment (NPM)
+- Tailwind CSS
+- tsparticles
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+- Real-time sentiment analysis
+- Responsive UI
+- Animated background
+- Confidence score
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
+sentiment-app/
+├── backend/
+│   ├── index.js
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+├── public/
+├── index.html
+└── package.json
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Setup
+git clone <your-repo-link>
+cd sentiment-app
+npm install
+npm install express sentiment cors
+
+## ▶️ Run
+node index.js
+npm run dev
+
+Open: http://localhost:5173
+
+## 🧠 How It Works
+1. User inputs text
+2. Sent to backend
+3. NLP processes
+4. Result displayed
+
+## 📸 Example
+Input: This product is amazing!
+Output: Positive (High confidence)
+
+## ⚠️ Limitations
+- Basic NLP
+- No database
+- Accuracy varies
+
+## 🔮 Future Improvements
+- Advanced ML
+- Cloud deploy
+- Multi-language
+
+## 👨‍💻 Author
+AJMAL
